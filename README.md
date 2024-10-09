@@ -2,14 +2,14 @@
 This project demonstrates various feature selection techniques used in machine learning to identify the most relevant features in a dataset. Feature selection is a critical step in building machine learning models, as it helps improve model performance by reducing dimensionality, mitigating overfitting, and enhancing interpretability.
 
 # Table of Contents
-  -**Introduction**
-  -**Feature Selection Techniques**
-    -**Filter Methods**
-    -**Wrapper Methods**
-    -**Embedded Methods**
-  -**Project Structure**
-  -**Dependencies**
-  -**License**
+  - **Introduction**
+  - **Feature Selection Techniques**
+    - **Filter Methods**
+    - **Wrapper Methods**
+    - **Embedded Methods**
+  - **Project Structure**
+  - **Dependencies**
+  - **License**
 
 # Introduction
   Feature selection is the process of selecting a subset of the most important variables from a dataset to build a machine learning model. This project provides an implementation of various feature selection methods in Python, using a dataset to demonstrate the advantages and limitations of each method.
