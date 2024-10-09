@@ -2,14 +2,14 @@
 This project demonstrates various feature selection techniques used in machine learning to identify the most relevant features in a dataset. Feature selection is a critical step in building machine learning models, as it helps improve model performance by reducing dimensionality, mitigating overfitting, and enhancing interpretability.
 
 # Table of Contents
--**Introduction**
--**Feature Selection Techniques**
-  -**Filter Methods**
-  -**Wrapper Methods**
-  -**Embedded Methods**
--**Project Structure**
--**Dependencies**
--**License**
+  -**Introduction**
+  -**Feature Selection Techniques**
+    -**Filter Methods**
+    -**Wrapper Methods**
+    -**Embedded Methods**
+  -**Project Structure**
+  -**Dependencies**
+  -**License**
 
 # Introduction
   Feature selection is the process of selecting a subset of the most important variables from a dataset to build a machine learning model. This project provides an implementation of various feature selection methods in Python, using a dataset to demonstrate the advantages and limitations of each method.
@@ -31,14 +31,14 @@ In this project, the following feature selection methods are explored:
   **Chi-Square Test**: A statistical test applied to categorical variables to assess the independence of two variables.
   **Variance Threshold**: Removes features with low variance across samples, assuming that low variance indicates little information.
 
-#2. Wrapper Methods
+# 2. Wrapper Methods
   Wrapper methods evaluate subsets of features by training models on different combinations of features. These methods are more computationally expensive but provide better feature subsets than filter methods because they consider feature interactions. Implemented wrapper methods include:
   
   **Recursive Feature Elimination (RFE)**: This method recursively removes the least important features and builds the model on the remaining subset of features.
   **Forward Selection**: Starts with an empty model and adds features one by one, based on which one improves the model performance the most.
   **Backward Elimination**: Starts with all the features and removes the least important features step by step, based on model performance.
   
-3. Embedded Methods
+# 3. Embedded Methods
   Embedded methods combine the advantages of both filter and wrapper methods. They use algorithms that have built-in feature selection capabilities. Examples of embedded methods used in this project include:
   
   **Lasso Regression (L1 Regularization)**: Penalizes the absolute size of coefficients, shrinking some coefficients to zero, effectively performing feature selection.
