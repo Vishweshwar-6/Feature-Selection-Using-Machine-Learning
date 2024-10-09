@@ -72,11 +72,11 @@ In this project, the following feature selection methods are explored:
 # Dependencies
   The following Python libraries are required and listed in requirements.txt:
   
-  -**numpy**
-  -**pandas**
-  -**scikit-learn**
-  -**matplotlib**
-  -**seaborn**
+  - **numpy**
+  - **pandas**
+  - **scikit-learn**
+  - **matplotlib**
+  - **seaborn**
   
 # License
   This project is licensed under the GNU General Public License v3.0 - see the LICENSE file for details.
