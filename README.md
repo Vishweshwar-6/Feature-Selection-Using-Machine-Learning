@@ -16,11 +16,11 @@ This project demonstrates various feature selection techniques used in machine l
 
 # By selecting the right set of features, we aim to:
 
-  -**Improve model accuracy**
-  -**Reduce computational costs**
-  -**Prevent overfitting**
-  -**Simplify the model for better interpretability**
-  -**Feature Selection Techniques**
+  - **Improve model accuracy**
+  - **Reduce computational costs**
+  - **Prevent overfitting**
+  - **Simplify the model for better interpretability**
+  - **Feature Selection Techniques**
   
 In this project, the following feature selection methods are explored:
 
